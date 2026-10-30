@@ -24,7 +24,7 @@ def bubble(b):
 def slide(s, i, n, fmt):
     tt = fmt == "tt"
     W, H = 1080, (1920 if tt else 1350)
-    padT, padB, padR = (230, 430, 170) if tt else (80, 70, 90)
+    padT, padB, padR = (240, 520, 180) if tt else (80, 70, 90)
     glow = s.get("glow", "pink")
     g = {"pink": "rgba(237,10,132,.30)", "wine": "rgba(109,16,48,.55)", "lime": "rgba(198,234,18,.22)"}[glow]
     gpos = s.get("gpos", "85% 8%")

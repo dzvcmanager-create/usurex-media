@@ -1,6 +1,6 @@
 # Renderer de carruseles USUREX (estilo chat, aprobado 27/10/2026)
 
-Uso: `python3 render.py piezas.json out prefijo` -> genera `prefijo_ig_NN.jpg` (1080x1350) y `prefijo_tt_NN.jpg` (1080x1920, zonas seguras TikTok).
+Uso: `python3 render.py piezas.json out prefijo` -> genera `prefijo_ig_NN.jpg` (1080x1350) y `prefijo_tt_NN.jpg` (1080x1920). Zonas seguras TikTok verificadas: nada bajo y=1460 (caption y barra), nada sobre y=160 (pestañas), nada a la derecha de x=950 entre y=700-1460 (botones). Revisar SIEMPRE con overlay antes de subir.
 
 Fuentes: `npm pack @fontsource/big-shoulders-display @fontsource/courier-prime` en /home/claude/fonts y descomprimir cada .tgz en una carpeta con su nombre (render.py apunta a esas rutas). Inter viene instalada en el sistema.
 
