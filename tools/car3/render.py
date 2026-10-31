@@ -43,6 +43,11 @@ def slide(s, i, n, fmt):
             reply = f'<div class="lab">{html.escape(s.get("rlabel","RESPONDE ASÍ:"))}</div>{bubble({"t": s["reply"], "time": s.get("rtime","11:15")})}'
         foot = f'<p class="foot">{hl(s["foot"])}</p>' if s.get("foot") else ""
         body = f'{kick}{ghost}<h2>{hl(s["title"])}</h2>{quote}{why}<div class="spacer"></div>{reply}{foot}' if reply else f'<div class="spacer"></div>{kick}{ghost}<h2>{hl(s["title"])}</h2>{why}{foot.replace("class=\"foot\"","class=\"foot punch\"")}<div class="spacer" style="flex:1.4"></div>'
+    elif s["type"] == "steps":
+        rows = "".join(f'<div class="st"><div class="n">{i}</div><div><div class="stt">{hl(x["t"])}</div><div class="std">{hl(x["d"])}</div></div></div>' for i, x in enumerate(s["items"], 1))
+        foot = f'<p class="foot punch" style="font-size:34px;margin-top:30px">{hl(s["foot"])}</p>' if s.get("foot") else ""
+        body = f'''{kick}<h2 class="close" style="font-size:96px;margin-bottom:20px">{hl(s["title"])}</h2><div class="stps">{rows}</div>{foot}<div class="spacer"></div>
+        <div class="mk" style="color:#ED0A84;margin:0">— BILLY · USUREX</div>'''
     elif s["type"] == "close":
         body = f'''{kick}<h2 class="close">{hl(s["title"])}</h2><p class="sub2">{hl(s["sub"])}</p>
         <div class="spacer"></div>{('<div class="cta">'+hl(s["cta"])+'</div>') if s.get("cta") else ""}
@@ -82,6 +87,11 @@ h2.close{{font-size:{118 if not tt else 112}px;line-height:1.04}}
 .foot{{font:400 40px/1.35 Inter;color:#e9e5dc;margin-top:40px}}
 .sub2{{font:400 46px/1.35 Inter;color:#e9e5dc;margin-top:10px;max-width:880px}}
 .cta{{font:600 37px/1.35 Inter;border:3px solid #C6EA12;border-radius:20px;padding:28px 32px;margin-bottom:60px}}
+.stps{{display:flex;flex-direction:column;gap:20px;margin-top:6px}}
+.st{{display:flex;gap:28px;align-items:flex-start}}
+.st .n{{font:900 100px/.85 BS,sans-serif;color:#ED0A84;min-width:62px}}
+.stt{{font:900 48px/1.02 BS,sans-serif;text-transform:uppercase;margin-bottom:10px}}
+.std{{font:400 31px/1.28 Inter,sans-serif;color:#d8d4cb}}
 .sig{{font:900 80px/1 BS,sans-serif;color:#ED0A84}}
 .mk{{font:700 25px CP,monospace;letter-spacing:7px;margin-top:22px}}
 </style></head><body><div class="bg"></div>{cover_ghost}<div class="grain"></div>

@@ -1,0 +1,5 @@
+[{"type":"steps","glow":"lime","gpos":"10% 0%","kicker":"Guárdalo para tu próxima reunión","kcol":"l","title":"Cliente dice “está [[caro]]”: 3 pasos","items":[
+{"t":"No bajes el precio","d":"Pregunta: “¿Caro comparado con qué?”. Casi siempre compara con algo que no es lo mismo."},
+{"t":"Cuéntale qué {{incluye}}","d":"Qué problema le resuelve y cuánto le cuesta NO resolverlo. Habla de su plata, no de tus horas."},
+{"t":"Ofrece uno más chico","d":"Si no alcanza, reduce el alcance, nunca el valor. Una versión básica, no un descuento."}],
+"foot":"El descuento enseña al cliente que tu precio era negociable."}]
