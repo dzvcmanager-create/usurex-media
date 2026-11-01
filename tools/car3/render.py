@@ -24,7 +24,7 @@ def bubble(b):
 def slide(s, i, n, fmt):
     tt = fmt == "tt"
     W, H = 1080, (1920 if tt else 1350)
-    padT, padB, padR = (240, 520, 180) if tt else (80, 70, 90)
+    padT, padB, padR = (370, 485, 180) if tt else (80, 70, 90)
     glow = s.get("glow", "pink")
     g = {"pink": "rgba(237,10,132,.30)", "wine": "rgba(109,16,48,.55)", "lime": "rgba(198,234,18,.22)"}[glow]
     gpos = s.get("gpos", "85% 8%")
@@ -61,38 +61,38 @@ body{{width:{W}px;height:{H}px;overflow:hidden;background:#0b0a0a;font-family:In
 .wrap{{position:absolute;inset:{padT}px {padR}px {padB}px 90px;display:flex;flex-direction:column}}
 .top{{position:absolute;top:{padT-0}px;left:90px;right:{padR}px;display:flex;justify-content:space-between;font:700 24px CP,monospace;letter-spacing:7px}}
 .top .b{{color:#ED0A84}} .top .b:before{{content:"■";margin-right:18px}}
-.inner{{margin-top:80px;flex:1;display:flex;flex-direction:column;position:relative}}
+.inner{{margin-top:{60 if tt else 80}px;flex:1;display:flex;flex-direction:column;position:relative}}
 mark{{color:inherit;padding:0 .08em;-webkit-box-decoration-break:clone;box-decoration-break:clone}}
 mark.p{{background:#ED0A84;color:#fff}} mark.l{{background:#C6EA12;color:#0b0a0a}}
 .kick{{font:700 27px CP,monospace;letter-spacing:7px;margin-bottom:22px;text-transform:uppercase}}
 .kick.p{{color:#ED0A84}} .kick.l{{color:#C6EA12}} .kick.g{{color:#8f8a80}}
-h1.big{{font:900 {122 if not tt else 132}px/1.04 BS,sans-serif;text-transform:uppercase;letter-spacing:-1px}}
-h2{{font:900 {104 if not tt else 100}px/0.98 BS,sans-serif;text-transform:uppercase;position:relative;z-index:2;margin-bottom:34px}}
-h2.close{{font-size:{118 if not tt else 112}px;line-height:1.04}}
+h1.big{{font:900 {122 if not tt else 118}px/1.04 BS,sans-serif;text-transform:uppercase;letter-spacing:-1px}}
+h2{{font:900 {104 if not tt else 92}px/0.98 BS,sans-serif;text-transform:uppercase;position:relative;z-index:2;margin-bottom:34px}}
+h2.close{{font-size:{118 if not tt else 100}px;line-height:1.04}}
 .ghost{{font:900 250px/.8 BS,sans-serif;color:rgba(237,10,132,.20);margin:0 0 -95px -6px;position:relative;z-index:1}}
 .cghost{{position:absolute;left:-40px;bottom:{170 if not tt else 420}px;font:900 760px/1 BS,sans-serif;color:rgba(109,16,48,.45);transform:skewX(-8deg)}}
-.chat{{display:flex;flex-direction:column;gap:26px;margin-top:10px}} .chat .bub{{font-size:37px;padding:22px 30px 14px}}
+.chat{{display:flex;flex-direction:column;gap:{26 if not tt else 18}px;margin-top:10px}} .chat .bub{{font-size:{37 if not tt else 33}px;padding:{"22px 30px 14px" if not tt else "16px 26px 10px"}}}
 .bub{{max-width:780px;padding:26px 32px 18px;border-radius:30px;font:400 40px/1.3 Inter,sans-serif;box-shadow:0 18px 40px rgba(0,0,0,.45)}}
 .bub.out{{background:#1f3b2b;align-self:flex-end}}
 .bub.in{{background:#262524;align-self:flex-start}}
 .step-wrap .bub.out,.bub.out.full{{align-self:stretch;max-width:none}}
 .bub .tm{{text-align:right;font-size:26px;color:#a9a59c;margin-top:6px}} .tk{{color:#a9a59c;margin-left:10px;letter-spacing:-6px}}
 .bub.q{{align-self:flex-start;margin:0 0 6px;font-size:42px;background:#262524;max-width:860px}}
-.bottom{{margin-top:auto}} .sub{{font:500 40px/1.3 Inter;margin-top:26px;color:#e9e5dc}}
-.swipe{{font:700 26px CP,monospace;letter-spacing:7px;margin-top:30px}}
+.bottom{{margin-top:auto}} .sub{{font:500 {40 if not tt else 36}px/1.3 Inter;margin-top:{26 if not tt else 16}px;color:#e9e5dc}}
+.swipe{{font:700 26px CP,monospace;letter-spacing:7px;margin-top:{30 if not tt else 18}px}}
 .why{{font:400 42px/1.38 Inter;color:#d8d4cb;margin-top:28px;max-width:880px}}
 .spacer{{flex:1}} .punch{{border-left:6px solid #C6EA12;padding-left:28px;font-weight:600;color:#F3F0E9;margin-top:50px}}
 .lab{{text-transform:uppercase;font:700 25px CP,monospace;letter-spacing:7px;color:#8f8a80;margin-bottom:24px}}
 .inner > .bub.out{{align-self:stretch;max-width:none}}
 .foot{{font:400 40px/1.35 Inter;color:#e9e5dc;margin-top:40px}}
 .sub2{{font:400 46px/1.35 Inter;color:#e9e5dc;margin-top:10px;max-width:880px}}
-.cta{{font:600 37px/1.35 Inter;border:3px solid #C6EA12;border-radius:20px;padding:28px 32px;margin-bottom:60px}}
+.cta{{font:600 37px/1.35 Inter;border:3px solid #C6EA12;border-radius:20px;padding:{"28px 32px" if not tt else "22px 28px"};margin-bottom:{60 if not tt else 34}px}}
 .stps{{display:flex;flex-direction:column;gap:20px;margin-top:6px}}
 .st{{display:flex;gap:28px;align-items:flex-start}}
 .st .n{{font:900 100px/.85 BS,sans-serif;color:#ED0A84;min-width:62px}}
 .stt{{font:900 48px/1.02 BS,sans-serif;text-transform:uppercase;margin-bottom:10px}}
 .std{{font:400 31px/1.28 Inter,sans-serif;color:#d8d4cb}}
-.sig{{font:900 80px/1 BS,sans-serif;color:#ED0A84}}
+.sig{{font:900 {80 if not tt else 64}px/1 BS,sans-serif;color:#ED0A84}}
 .mk{{font:700 25px CP,monospace;letter-spacing:7px;margin-top:22px}}
 </style></head><body><div class="bg"></div>{cover_ghost}<div class="grain"></div>
 <div class="top"><span class="b">USUREX</span><span>{(f"{i:02d} / {n:02d}" if n > 1 else "")}</span></div>
