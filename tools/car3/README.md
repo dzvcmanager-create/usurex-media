@@ -8,3 +8,9 @@ Tipos de lámina: `cover` (chat + título), `step` (kicker, ghost, title, quote/
 Resaltado: `[[texto]]` rosado, `{{texto}}` lima. Un JSON de 1 lámina = post simple (sin contador).
 
 Postura de marca (30/10/2026): Billy = "el antigurú". Marketero que no es millonario y va en camino; humor, tips reales, números reales. Nunca inventar datos.
+
+## QA obligatorio (corre solo al final de render.py)
+- El número de la portada debe calzar con los pasos/errores del carrusel.
+- Frases prohibidas: etiqueta, menciona a, millonario, por ti, voy en camino, sígueme si, comparte con tu.
+- Zonas seguras TikTok (1080x1920): nada en y<345 (flecha y música del editor), y>1460, ni x>924 entre 345 y 1460.
+- Si el QA falla, no se sube nada.

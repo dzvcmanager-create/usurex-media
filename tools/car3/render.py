@@ -112,5 +112,8 @@ def main():
                 pg.goto(f"file://{f}"); pg.wait_for_timeout(250)
                 pg.screenshot(path=str(out / f"{pre}_{fmt}_{i:02d}.jpg"), type="jpeg", quality=92)
         b.close()
+    import subprocess, os
+    r = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'qa.py'), sys.argv[1], str(out), pre])
+    if r.returncode: sys.exit('QA FALLÓ: no subir hasta corregir')
 
 main()
