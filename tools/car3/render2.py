@@ -6,6 +6,9 @@ F = "/home/claude/fonts"
 FONTS = f"""
 @font-face{{font-family:BS;font-weight:800;src:url(file://{F}/fontsource-big-shoulders-display-5.3.0/files/big-shoulders-display-latin-800-normal.woff2)}}
 @font-face{{font-family:BS;font-weight:900;src:url(file://{F}/fontsource-big-shoulders-display-5.3.0/files/big-shoulders-display-latin-900-normal.woff2)}}
+@font-face{{font-family:Inter;font-weight:400;src:url(file://{F}/inter/inter-latin-400-normal.woff2)}}
+@font-face{{font-family:Inter;font-weight:500;src:url(file://{F}/inter/inter-latin-500-normal.woff2)}}
+@font-face{{font-family:Inter;font-weight:600;src:url(file://{F}/inter/inter-latin-600-normal.woff2)}}
 @font-face{{font-family:CP;font-weight:700;src:url(file://{F}/fontsource-courier-prime-5.3.0/files/courier-prime-latin-700-normal.woff2)}}
 """
 
