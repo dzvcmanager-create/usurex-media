@@ -1,0 +1,66 @@
+[
+{
+"type": "cover",
+"cghost": "$",
+"chat": [
+{
+"in": true,
+"t": "precio?",
+"time": "21:47"
+},
+{
+"t": "$25.000",
+"time": "21:52"
+}
+],
+"kicker": "Ventas sin presión",
+"kcol": "l",
+"title": "Te comentan “¿[[precio]]?”: 3 pasos para no perder la venta",
+"sub": "Responder solo con el número cierra la conversación. Después: visto 👀"
+},
+{
+"type": "step",
+"kicker": "Paso 01",
+"ghost": "01",
+"title": "Responde por [[interno]]",
+"quote": "precio?",
+"why": "El precio en un comentario lo lee tu competencia y el cliente se va sin hablar contigo. Por mensaje empieza una conversación.",
+"reply": "¡Hola! Te escribí por interno con todo el detalle 🙌",
+"rlabel": "Comenta así:",
+"qtime": "cliente",
+"rtime": "21:48"
+},
+{
+"type": "step",
+"kicker": "Paso 02",
+"ghost": "02",
+"title": "Precio con [[contexto]]",
+"quote": "precio?",
+"why": "Un número solo se compara. Un número con lo que incluye se entiende.",
+"reply": "Son $25.000 con envío a domicilio y cambio sin costo. ¿Para qué fecha lo necesitas?",
+"rlabel": "Escribe así:",
+"qtime": "cliente",
+"rtime": "21:49"
+},
+{
+"type": "step",
+"kicker": "Paso 03",
+"ghost": "03",
+"title": "Un [[seguimiento]], solo uno",
+"quote": "(visto)",
+"why": "Si no responde en 24 horas, manda un mensaje corto. Mucha gente no compra porque se le olvidó, no porque no quiera.",
+"reply": "Hola, ¿pudiste ver lo que te mandé? Si te sirve, te lo guardo hasta mañana.",
+"rlabel": "Al día siguiente:",
+"qtime": "ayer"
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]

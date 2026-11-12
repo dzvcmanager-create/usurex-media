@@ -1,0 +1,64 @@
+[
+{
+"type": "cover",
+"cghost": "?",
+"chat": [
+{
+"in": true,
+"t": "Mándame la info por WhatsApp y lo veo.",
+"time": "18:10"
+},
+{
+"t": "Y nunca más respondió 👻",
+"time": "18:11"
+}
+],
+"kicker": "Ventas sin presión",
+"kcol": "l",
+"title": "“Mándame la info”: 3 [[pasos]] para que no te deje en visto",
+"sub": "Un PDF sin conversación casi nunca se lee."
+},
+{
+"type": "step",
+"kicker": "Paso 01",
+"ghost": "01",
+"title": "Pregunta qué le [[importa]]",
+"quote": "Mándame la info",
+"why": "Si mandas todo, no lee nada. Si mandas lo que le importa, lee y responde.",
+"reply": "Claro. Para mandarte lo justo: ¿te importa más el precio o lo que incluye?",
+"rlabel": "Responde así:",
+"qtime": "cliente"
+},
+{
+"type": "step",
+"kicker": "Paso 02",
+"ghost": "02",
+"title": "Manda [[corto]], no un catálogo",
+"quote": "Lo que incluye",
+"why": "Tres líneas y un precio se leen en el celular. Un PDF de diez páginas, no.",
+"reply": "Plan de redes: respuestas de lunes a sábado, 5 historias por semana y 3 reels. $150.000 + IVA.",
+"rlabel": "Envía así:",
+"qtime": "cliente"
+},
+{
+"type": "step",
+"kicker": "Paso 03",
+"ghost": "03",
+"title": "Termina con una [[pregunta]]",
+"quote": "Ok, lo reviso",
+"why": "Un mensaje que termina en punto se queda en visto. Uno con pregunta pide respuesta.",
+"reply": "¿Lo vemos en una llamada corta el jueves o prefieres resolverlo por aquí?",
+"rlabel": "Cierra así:",
+"qtime": "cliente"
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]

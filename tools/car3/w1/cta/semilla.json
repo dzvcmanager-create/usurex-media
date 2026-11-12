@@ -1,0 +1,52 @@
+[
+{
+"type": "cover2",
+"glow": "pink",
+"gpos": "85% 8%",
+"kicker": "Fondos · Corfo",
+"kcol": "l",
+"fig": "$15 MILL.",
+"figsize": {
+"ig": 190,
+"tt": 160
+},
+"title": "Semilla Inicia: 3 cosas que debes tener antes de [[postular]]",
+"sub": "Corfo cofinancia hasta el 75% de tu proyecto, con tope de $15 millones.",
+"src": "Fuente: ChileAtiende, ficha Semilla Inicia (Corfo)"
+},
+{
+"type": "step",
+"kicker": "Requisito 01",
+"ghost": "01",
+"title": "Cero [[ventas]]",
+"why": "Es para ideas o prototipos que todavía no venden. Si ya estás facturando, este no es tu fondo.",
+"foot": "Puedes postular como persona natural, mayor de 18 y con residencia en Chile."
+},
+{
+"type": "step",
+"kicker": "Requisito 02",
+"ghost": "02",
+"title": "Algo que pueda [[crecer]]",
+"why": "No es pertinente si solo compras equipos, importas, es una franquicia o tiene alcance local o regional.",
+"foot": "Un local tradicional no califica. Una solución nueva que pueda escalar, sí."
+},
+{
+"type": "step",
+"kicker": "Requisito 03",
+"ghost": "03",
+"title": "Un video de [[40 segundos]]",
+"why": "Tienes que mostrar tu producto o servicio y qué lo hace distinto. Si no se entiende rápido, pierdes puntos.",
+"foot": "Grábalo con el celular, pero con guion."
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲",
+"src": "Revisa siempre las bases oficiales antes de postular."
+}
+]
