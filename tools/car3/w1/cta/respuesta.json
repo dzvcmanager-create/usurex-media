@@ -1,0 +1,51 @@
+[
+{
+"type": "cover2",
+"glow": "pink",
+"gpos": "85% 8%",
+"kicker": "Tiempo de respuesta",
+"kcol": "l",
+"fig": "1 HORA",
+"title": "Te escribieron: 3 pasos para [[responder]] antes de que se enfríe",
+"sub": "Responder dentro de la primera hora multiplicó casi por 7 las opciones de concretar el contacto.",
+"src": "Fuente: Harvard Business Review, 'The Short Life of Online Sales Leads' (2011)"
+},
+{
+"type": "step",
+"kicker": "Paso 01",
+"ghost": "01",
+"title": "Responde [[algo]] altiro",
+"quote": "Hola, ¿cuánto sale?",
+"why": "No necesitas la cotización lista. Un primer mensaje en minutos mantiene a la persona contigo.",
+"reply": "¡Hola! Te ayudo. ¿Es para ti o para regalo? Así te digo la mejor opción.",
+"rlabel": "En menos de 5 minutos:",
+"qtime": "cliente",
+"rtime": "18:04"
+},
+{
+"type": "step",
+"kicker": "Paso 02",
+"ghost": "02",
+"title": "Deja [[3 respuestas]] guardadas",
+"why": "Precio, envío y horario son las preguntas que más se repiten. WhatsApp Business permite guardarlas como respuestas rápidas.",
+"foot": "Escribes «/» y la respuesta aparece."
+},
+{
+"type": "step",
+"kicker": "Paso 03",
+"ghost": "03",
+"title": "Mide tu [[demora]] una semana",
+"why": "Anota a qué hora te escribieron y a qué hora respondiste. Si el promedio pasa la hora, ahí se te está yendo plata.",
+"foot": "Lo que no se mide, no se arregla."
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]
