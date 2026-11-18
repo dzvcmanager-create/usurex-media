@@ -1,0 +1,53 @@
+[
+{
+"type": "cover",
+"cghost": "?",
+"chat": [{"t": "Hola, ¿pudiste ver la cotización?", "time": "11:02"}, {"t": "Visto. Sin respuesta 👀", "time": "18:40"}],
+"kicker": "Seguimiento",
+"kcol": "l",
+"title": "No te respondió: 3 [[seguimientos]] que no suenan a desesperado",
+"sub": "Si no vuelves a escribir, la venta se la lleva el que sí lo hizo."
+},
+{
+"type": "step",
+"kicker": "Paso 01",
+"ghost": "01",
+"title": "Vuelve con algo [[nuevo]]",
+"quote": "¿Pudiste verlo?",
+"why": "Preguntar lo mismo presiona. Sumar algo útil da una razón para responder.",
+"reply": "Hola, me acordé de ti: este modelo también viene en negro. Te dejo la foto 📷",
+"rlabel": "Mejor así:",
+"qtime": "tú",
+"rtime": "2 días después"
+},
+{
+"type": "step",
+"kicker": "Paso 02",
+"ghost": "02",
+"title": "Haz una pregunta de [[sí o no]]",
+"why": "«¿Qué te pareció?» obliga a pensar una respuesta larga. Un sí o un no se contesta en 2 segundos, incluso desde la micro.",
+"foot": "«¿Te lo aparto para el viernes?» se responde altiro."
+},
+{
+"type": "step",
+"kicker": "Paso 03",
+"ghost": "03",
+"title": "Cierra la puerta con [[cariño]]",
+"quote": "…",
+"why": "El último mensaje no reclama: libera. Muchas veces es el que más respuestas trae.",
+"reply": "Te escribo por última vez para no molestarte. ¿Lo dejamos para más adelante?",
+"rlabel": "El último:",
+"qtime": "tú",
+"rtime": "5 días después"
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]

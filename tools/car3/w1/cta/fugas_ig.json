@@ -1,0 +1,46 @@
+[
+{
+"type": "cover2",
+"glow": "pink",
+"gpos": "85% 8%",
+"kicker": "Por qué no te compran",
+"kcol": "l",
+"fig": "3 FUGAS",
+"title": "Tu Instagram no vende: 3 fugas que se ven en [[5 segundos]]",
+"sub": "El cliente entra, no entiende o no encuentra cómo escribirte, y se va sin avisar."
+},
+{
+"type": "step",
+"kicker": "Fuga 01",
+"ghost": "01",
+"title": "La bio no dice [[qué vendes]]",
+"why": "Frases bonitas no venden. En una línea: qué vendes, para quién y dónde. «Cocinas a medida en Viña y Quilpué» se entiende al tiro.",
+"foot": "Si tu mamá no la entiende, el cliente tampoco."
+},
+{
+"type": "step",
+"kicker": "Fuga 02",
+"ghost": "02",
+"title": "El link no lleva a [[WhatsApp]]",
+"why": "Link roto, número sin el +56 o un chat en blanco: el cliente no sabe qué escribir y cierra. Usa un link con mensaje listo.",
+"foot": "Pruébalo tú desde otro celular. Hoy."
+},
+{
+"type": "step",
+"kicker": "Fuga 03",
+"ghost": "03",
+"title": "No dice [[cuándo]] respondes",
+"why": "El que escribe a las 22:00 y no sabe si le van a contestar, le escribe también a tu competencia. Pon tu horario y cuánto te demoras.",
+"foot": "«Respondemos de lunes a sábado, 10 a 19 h.»"
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]
