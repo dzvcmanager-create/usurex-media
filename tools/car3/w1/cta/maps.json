@@ -1,0 +1,47 @@
+[
+{
+"type": "cover2",
+"glow": "pink",
+"gpos": "85% 8%",
+"kicker": "Google Maps",
+"kcol": "l",
+"fig": "3 PASOS",
+"title": "Que te encuentren en [[Google Maps]]: 3 pasos gratis",
+"sub": "Google lo dice claro: el puesto en Maps no se compra. Se gana con tu ficha.",
+"src": "Fuente: Ayuda de Perfil de Empresa de Google"
+},
+{
+"type": "step",
+"kicker": "Paso 01",
+"ghost": "01",
+"title": "Completa [[toda]] la ficha",
+"why": "Horario (también el especial de fiestas), dirección, categoría y atributos. Google pide que la información esté «lo más completa posible».",
+"foot": "Sin horario, el cliente no sabe si vas a estar abierto."
+},
+{
+"type": "step",
+"kicker": "Paso 02",
+"ghost": "02",
+"title": "Pide reseñas y [[respóndelas]]",
+"why": "Según Google, más reseñas y valoraciones positivas mejoran tu posición local. Y responderlas muestra que te importa el cliente.",
+"foot": "Un QR en el mesón que lleve directo a dejar la reseña."
+},
+{
+"type": "step",
+"kicker": "Paso 03",
+"ghost": "03",
+"title": "Sube [[fotos]] reales",
+"why": "Tu local, tus productos, tu equipo. Google recomienda fotos para mostrar lo que ofreces. Una ficha sin fotos se salta en la búsqueda.",
+"foot": "Foto de fachada: para que te reconozcan al llegar."
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram, tu web o tu ficha de Google, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]
