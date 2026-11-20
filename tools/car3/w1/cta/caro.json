@@ -1,0 +1,67 @@
+[
+ {
+  "type": "cover",
+  "cghost": "$",
+  "chat": [
+   {
+    "in": true,
+    "t": "Me gustó, pero está caro 😬",
+    "time": "18:20"
+   },
+   {
+    "t": "Te hago 20% de descuento",
+    "time": "18:21"
+   }
+  ],
+  "kicker": "Ventas sin presión",
+  "kcol": "l",
+  "title": "“Está caro”: 3 respuestas sin bajar tu [[precio]]",
+  "sub": "Si bajas el precio altiro, le confirmas que estaba inflado."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 01",
+  "ghost": "01",
+  "title": "Pregunta con qué [[compara]]",
+  "quote": "Está caro",
+  "why": "Caro siempre es comparado con algo. Si no sabes con qué, negocias a ciegas.",
+  "reply": "Te entiendo. ¿Lo comparas con otra opción o con lo que pensabas gastar?",
+  "rlabel": "Responde así:",
+  "qtime": "cliente",
+  "rtime": "18:21"
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 02",
+  "ghost": "02",
+  "title": "Muestra lo que [[incluye]]",
+  "quote": "En otro lado es más barato",
+  "why": "Dos precios distintos casi nunca son lo mismo. Muestra la diferencia.",
+  "reply": "Puede ser. El mío incluye envío y garantía de 30 días. ¿El otro también?",
+  "rlabel": "Responde así:",
+  "qtime": "cliente",
+  "rtime": "18:24"
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 03",
+  "ghost": "03",
+  "title": "Achica el pedido, no el [[precio]]",
+  "quote": "No me alcanza este mes",
+  "why": "Ofrece menos cantidad o una versión básica. El precio no se toca.",
+  "reply": "Sin problema. Tengo una versión más simple que resuelve lo principal. ¿Te la muestro?",
+  "rlabel": "Responde así:",
+  "qtime": "cliente",
+  "rtime": "18:27"
+ },
+ {
+  "type": "close",
+  "glow": "lime",
+  "gpos": "10% 0%",
+  "kicker": "¿Te pasa en tu negocio?",
+  "kcol": "l",
+  "title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+  "sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+  "cta": "WhatsApp directo: +56 9 3561 3004 📲"
+ }
+]
