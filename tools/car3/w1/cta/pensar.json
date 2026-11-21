@@ -1,0 +1,60 @@
+[
+ {
+  "type": "cover",
+  "cghost": "?",
+  "chat": [
+   {"in": true, "t": "Me tinca, lo voy a pensar 🤔", "time": "20:10"},
+   {"t": "Dale, cualquier cosa me avisas", "time": "20:11"}
+  ],
+  "kicker": "Ventas sin presión",
+  "kcol": "l",
+  "title": "“Lo voy a pensar”: 3 respuestas para no [[perderlo]]",
+  "sub": "“Cualquier cosa me avisas” casi siempre es la despedida de la venta."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 01",
+  "ghost": "01",
+  "title": "Pregunta qué le [[falta]]",
+  "quote": "Lo voy a pensar",
+  "why": "Casi siempre hay una duda que no dijo: precio, plazo o si le va a servir.",
+  "reply": "Obvio. ¿Qué te falta para decidir: el precio, el plazo o algo del producto?",
+  "rlabel": "Responde así:",
+  "qtime": "cliente",
+  "rtime": "20:11"
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 02",
+  "ghost": "02",
+  "title": "Resuelve esa [[duda]]",
+  "quote": "Es que no sé si me queda",
+  "why": "Contesta solo eso, corto y concreto. No vuelvas a explicar todo.",
+  "reply": "Te mando una foto con las medidas reales. Si no te queda, lo cambias sin costo.",
+  "rlabel": "Responde así:",
+  "qtime": "cliente",
+  "rtime": "20:14"
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 03",
+  "ghost": "03",
+  "title": "Acuerda cuándo [[vuelves]]",
+  "quote": "Déjame verlo con calma",
+  "why": "Pide permiso para escribirle un día concreto. Así el seguimiento no es molestar.",
+  "reply": "Perfecto. ¿Te escribo el jueves y me cuentas qué decidiste?",
+  "rlabel": "Responde así:",
+  "qtime": "cliente",
+  "rtime": "20:16"
+ },
+ {
+  "type": "close",
+  "glow": "lime",
+  "gpos": "10% 0%",
+  "kicker": "¿Te pasa en tu negocio?",
+  "kcol": "l",
+  "title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+  "sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+  "cta": "WhatsApp directo: +56 9 3561 3004 📲"
+ }
+]
