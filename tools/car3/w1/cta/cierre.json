@@ -1,0 +1,47 @@
+[
+{
+"type": "cover2",
+"glow": "pink",
+"gpos": "85% 8%",
+"kicker": "Números del negocio",
+"kcol": "l",
+"fig": "3 PASOS",
+"title": "¿Cuántos de los que te escriben [[compran]]? 3 pasos para saberlo",
+"sub": "Black Friday es del 27 al 30 de noviembre. Mide esta semana y compara después.",
+"src": "Fechas: Cámara de Comercio de Santiago (CCS)"
+},
+{
+"type": "step",
+"kicker": "Paso 01",
+"ghost": "01",
+"title": "Cuenta los que te [[escriben]]",
+"why": "Una semana. Cada chat nuevo de WhatsApp o Instagram que pregunta por algo que vendes, una raya en una hoja.",
+"foot": "Sin contar a la familia ni a los proveedores."
+},
+{
+"type": "step",
+"kicker": "Paso 02",
+"ghost": "02",
+"title": "Cuenta los que [[compran]]",
+"why": "De esos mismos chats, cuántos terminaron pagando. Divide compras por chats: ese es tu % de cierre.",
+"foot": "Ej.: 40 chats y 8 ventas = 20%."
+},
+{
+"type": "step",
+"kicker": "Paso 03",
+"ghost": "03",
+"title": "Mira [[dónde]] se cayeron",
+"why": "Revisa los que no compraron: ¿te demoraste?, ¿preguntaron precio y no volviste a escribir?, ¿dijeron «lo voy a pensar»?",
+"foot": "Ahí está la plata que se te va."
+},
+{
+"type": "close",
+"glow": "lime",
+"gpos": "10% 0%",
+"kicker": "¿Te pasa en tu negocio?",
+"kcol": "l",
+"title": "Comenta [[REX]] y te digo dónde se te escapan las ventas",
+"sub": "Gratis y por interno: 2 fugas concretas de tu Instagram o tu web, y cómo arreglarlas.",
+"cta": "WhatsApp directo: +56 9 3561 3004 📲"
+}
+]
