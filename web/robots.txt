@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://usurex.cl/sitemap.xml
