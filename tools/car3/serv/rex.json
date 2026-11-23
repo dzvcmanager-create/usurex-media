@@ -1,0 +1,17 @@
+[
+{"type":"cover2","glow":"pink","gpos":"85% 8%","kicker":"Sitio REX","kcol":"l","fig":"3 PASOS","figsize":{"ig":190,"tt":160},
+ "title":"Así se arma una web que [[vende]], no una plantilla","sub":"Lo que hacemos antes de diseñar una sola página."},
+{"type":"step","kicker":"Paso 01","ghost":"01","title":"Estudiar a tu [[competencia]]",
+ "why":"Revisamos 3 competidores de tu zona: qué ofrecen, sus precios visibles y cómo aparecen en Google e Instagram.",
+ "foot":"Así sabes en qué te ganan y dónde puedes ganarles tú."},
+{"type":"step","kicker":"Paso 02","ghost":"02","title":"Escribir para que te [[escriban]]",
+ "why":"Textos de venta y un botón de WhatsApp con mensaje listo. La visita entiende qué vendes y da el paso.",
+ "foot":"Diseño a tu medida, pensado primero para celular."},
+{"type":"step","kicker":"Paso 03","ghost":"03","title":"Conectar [[Google]] y medir",
+ "why":"Tu ficha de Maps conectada al sitio y una medición simple: cuántos entran y cuántos te escriben.",
+ "foot":"Con números, no con intuición."},
+{"type":"close","glow":"lime","gpos":"10% 0%","kicker":"Sitio + Google + estudio","kcol":"l",
+ "title":"Todo junto por [[$349.990]] + IVA",
+ "sub":"Listo en 10 días hábiles. Pagas 50% al inicio y 50% al entregar. Por separado, en una agencia pequeña, supera los $400.000.",
+ "cta":"WhatsApp directo: +56 9 3561 3004 📲"}
+]

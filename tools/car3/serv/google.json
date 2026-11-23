@@ -1,0 +1,50 @@
+[
+ {
+  "type": "cover2",
+  "glow": "pink",
+  "gpos": "85% 8%",
+  "kicker": "Google Maps",
+  "kcol": "l",
+  "fig": "3 PASOS",
+  "figsize": {
+   "ig": 190,
+   "tt": 160
+  },
+  "title": "¿Te buscan en Maps y [[no te eligen]]? Revísalo hoy",
+  "sub": "Busca tu negocio en Google ahora y compáralo con el de al lado."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 01",
+  "ghost": "01",
+  "title": "¿Aparece tu [[horario]]?",
+  "why": "Si no está o está mal, el cliente no se arriesga a ir y elige al que sí lo muestra.",
+  "foot": "Revisa también la dirección y el botón para llamar o escribir."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 02",
+  "ghost": "02",
+  "title": "¿Tus [[fotos]] dan ganas?",
+  "why": "En Maps la gente compara con fotos. Si no hay o son oscuras, la primera impresión la gana tu competencia.",
+  "foot": "Fotos reales de tu local y tus productos, bien iluminadas."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 03",
+  "ghost": "03",
+  "title": "¿Cuántas [[reseñas]] tienes?",
+  "why": "Un local con 10 reseñas compite contra uno con 200. Pedirlas una por una no funciona: un QR en el mesón sí.",
+  "foot": "Y responde cada reseña, también las malas."
+ },
+ {
+  "type": "close",
+  "glow": "lime",
+  "gpos": "10% 0%",
+  "kicker": "Lo dejamos listo en 48 h",
+  "kcol": "l",
+  "title": "Tu ficha de Google desde [[$29.990]] + IVA",
+  "sub": "Ficha completa, botón de WhatsApp y QR de reseñas. Con 8 fotos profesionales: $44.990 + IVA. Queda a tu nombre.",
+  "cta": "WhatsApp directo: +56 9 3561 3004 📲"
+ }
+]

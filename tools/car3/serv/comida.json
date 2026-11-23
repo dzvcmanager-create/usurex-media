@@ -1,0 +1,50 @@
+[
+ {
+  "type": "cover2",
+  "glow": "pink",
+  "gpos": "85% 8%",
+  "kicker": "Restoranes, cafés y cervecerías",
+  "kcol": "l",
+  "fig": "3 FUGAS",
+  "figsize": {
+   "ig": 190,
+   "tt": 160
+  },
+  "title": "Lo que te hace [[perder mesas]] antes de que lleguen",
+  "sub": "Y se arreglan sin cambiar tu cocina."
+ },
+ {
+  "type": "step",
+  "kicker": "Fuga 01",
+  "ghost": "01",
+  "title": "Fotos que no [[abren el apetito]]",
+  "why": "La comida se compra primero con los ojos. Si en Maps o Instagram tus platos se ven oscuros, el cliente se va al de al lado.",
+  "foot": "Fotos reales de tus platos, bien iluminadas."
+ },
+ {
+  "type": "step",
+  "kicker": "Fuga 02",
+  "ghost": "02",
+  "title": "La carta que [[nadie encuentra]]",
+  "why": "Si para ver precios hay que escribirte o esperar al garzón, muchos ni preguntan.",
+  "foot": "Una carta digital con QR en la mesa y enlace en tu Instagram."
+ },
+ {
+  "type": "step",
+  "kicker": "Fuga 03",
+  "ghost": "03",
+  "title": "Una ficha de Google [[a medias]]",
+  "why": "Sin horario, sin fotos y con pocas reseñas, no te eligen cuando buscan dónde comer cerca.",
+  "foot": "Un QR en la mesa para pedir reseñas al que ya comió feliz."
+ },
+ {
+  "type": "close",
+  "glow": "lime",
+  "gpos": "10% 0%",
+  "kicker": "Pack local · comida",
+  "kcol": "l",
+  "title": "Las 3 resueltas por [[$89.990]] + IVA",
+  "sub": "Ficha de Google, 10 fotos profesionales de tus platos y carta digital con QR para las mesas.",
+  "cta": "WhatsApp directo: +56 9 3561 3004 📲"
+ }
+]
