@@ -1,0 +1,51 @@
+[
+ {
+  "type": "cover2",
+  "glow": "pink",
+  "gpos": "85% 8%",
+  "kicker": "Antes del Black Friday",
+  "kcol": "l",
+  "fig": "3 FUGAS",
+  "figsize": {
+   "ig": 190,
+   "tt": 160
+  },
+  "title": "Te hacen perder clientes [[antes de que te escriban]]",
+  "sub": "Se ven desde afuera en un minuto. Revísalas antes del Black Friday: 27 al 30 de noviembre.",
+  "src": "Fechas: Cámara de Comercio de Santiago (CCS)"
+ },
+ {
+  "type": "step",
+  "kicker": "Fuga 01",
+  "ghost": "01",
+  "title": "Tu ficha de Google [[sin horario]]",
+  "why": "El que te busca en Maps no sabe si estás abierto. No se arriesga: va al de al lado, que sí lo muestra.",
+  "foot": "Revisa también el horario especial de fiestas."
+ },
+ {
+  "type": "step",
+  "kicker": "Fuga 02",
+  "ghost": "02",
+  "title": "Tu Instagram [[sin WhatsApp]] a un toque",
+  "why": "Si para comprar hay que buscar un número o esperar que contestes el DM, la compra se enfría.",
+  "foot": "Link directo a WhatsApp, con el mensaje ya escrito."
+ },
+ {
+  "type": "step",
+  "kicker": "Fuga 03",
+  "ghost": "03",
+  "title": "Sin [[página web]] que responda lo básico",
+  "why": "Quien te googlea quiere ver qué vendes, cuánto cuesta y cómo llegar. Si no lo encuentra, compra en otra parte.",
+  "foot": "Basta una página clara con precios y botón de WhatsApp."
+ },
+ {
+  "type": "close",
+  "glow": "lime",
+  "gpos": "10% 0%",
+  "kicker": "AFV express · gratis",
+  "kcol": "l",
+  "title": "Te muestro [[dónde se te van]] los clientes",
+  "sub": "2 a 3 fugas visibles de tu ficha, Instagram o web y cómo arreglarlas, en 1 página. Ficha de Google $29.990 + IVA · Sitio Express $99.990 + IVA.",
+  "cta": "¿Quieres saber más? Escríbeme por WhatsApp: +56 9 3561 3004"
+ }
+]
