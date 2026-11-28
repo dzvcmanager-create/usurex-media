@@ -1,0 +1,47 @@
+[
+ {
+  "type": "cover2",
+  "glow": "pink",
+  "gpos": "85% 8%",
+  "kicker": "Antes de las fiestas",
+  "kcol": "l",
+  "fig": "3 COSAS",
+  "figsize": {"ig": 190, "tt": 160},
+  "title": "Qué revisar en tu [[ficha de Google]] antes de diciembre",
+  "sub": "El que te busca en Maps decide en segundos. Que no se vaya al de al lado por algo que se arregla en un rato."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 01",
+  "ghost": "01",
+  "title": "Carga tu [[horario de fiestas]]",
+  "why": "Si el 24 o el 31 cierras antes y Google no lo dice, el cliente llega y encuentra la cortina abajo. No vuelve.",
+  "foot": "Google permite cargar horarios especiales por fecha."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 02",
+  "ghost": "02",
+  "title": "Sube [[fotos de hoy]], no de hace años",
+  "why": "En Maps la gente compara con fotos. Fachada, interior y lo que vendes: que sepan qué van a encontrar.",
+  "foot": "Fotos claras y reales valen más que fotos perfectas."
+ },
+ {
+  "type": "step",
+  "kicker": "Paso 03",
+  "ghost": "03",
+  "title": "Responde tus [[reseñas]]",
+  "why": "Una reseña sin respuesta parece un local que no escucha. Agradece las buenas y responde con calma las malas.",
+  "foot": "Un QR en el mesón te ayuda a sumar reseñas nuevas."
+ },
+ {
+  "type": "close",
+  "glow": "lime",
+  "gpos": "10% 0%",
+  "kicker": "AFV express · gratis",
+  "kcol": "l",
+  "title": "Te muestro [[dónde se te van]] los clientes",
+  "sub": "2 a 3 fugas visibles de tu ficha, Instagram o web y cómo arreglarlas, en 1 página. Ficha de Google lista desde $29.990 + IVA.",
+  "cta": "¿Quieres saber más? Escríbeme por WhatsApp: +56 9 3561 3004"
+ }
+]
